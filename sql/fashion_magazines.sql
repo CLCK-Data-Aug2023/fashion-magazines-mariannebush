@@ -7,4 +7,5 @@ JOIN subscriptions s
 	ON o.subscription_id = s.subscription_id
 WHERE o.order_status = 'unpaid'
 	AND s.description = 'Fashion Magazine'
-	GROUP BY Customer;
+	GROUP BY Customer; 
+    
